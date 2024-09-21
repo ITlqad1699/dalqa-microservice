@@ -1,0 +1,24 @@
+http://localhost:8000/api/v1/currency-exchange/from/USD/to/INR
+http://localhost:8001/api/v1/currency-exchange/from/USD/to/INR
+
+http://localhost:8100/api/v1/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8100/api/v1/currency-conversion/from/USD/to/INR/quantity/10/feign
+
+Initial
+- http://localhost:8765/CURRENCY-EXCHANGES-SERVICE/api/v1/currency-exchange/from/USD/to/INR
+- http://localhost:8765/CURRENCY-CONVERSION-SERVICE/api/v1/currency-conversion/from/USD/to/INR/quantity/10
+- http://localhost:8765/CURRENCY-CONVERSION-SERVICE/api/v1/currency-conversion/from/USD/to/INR/quantity/10/feign
+
+Lower Case
+
+- http://localhost:8765/currency-exchanges-service/api/v1/currency-exchange/from/USD/to/INR
+- http://localhost:8765/currency-conversion-service/api/v1/currency-conversion/from/USD/to/INR/quantity/10
+- http://localhost:8765/currency-conversion-service/api/v1/currency-conversion/from/USD/to/INR/quantity/10/feign
+
+Custom Routes
+
+- http://localhost:8765/api/v1/currency-exchange/from/USD/to/INR
+- http://localhost:8765/api/v1/currency-conversion/from/USD/to/INR/quantity/10
+- http://localhost:8765/api/v1/currency-conversion/from/USD/to/INR/quantity/10/feign
+- http://localhost:8765/api/v1/currency-conversion-new/from/USD/to/INR/quantity/10
+- http://localhost:8765/api/v1/currency-conversion-new/from/USD/to/INR/quantity/10
